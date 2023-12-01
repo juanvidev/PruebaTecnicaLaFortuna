@@ -11,6 +11,7 @@ Se necesitará tener instalado en el sistema operativo:
  
 # Configurar variables de entorno
 **SERVER_PORT** : Especificar el puerto para el servidor de Express.
+
 **MONGODB_URI**: Especificar el URI de conexion del Cluster personal de MongoDB o dejar vacío para conexion local.
 
 Ejemplo URI Cluster MongoDB:
