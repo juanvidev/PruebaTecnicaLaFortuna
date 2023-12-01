@@ -9,14 +9,6 @@ Se necesitará tener instalado en el sistema operativo:
  - [Mongo Community Server](https://www.mongodb.com/try/download/community)
  - [Mongo Compass](https://www.mongodb.com/products/tools/compass)
  
-# Configurar variables de entorno
-**SERVER_PORT** : Especificar el puerto para el servidor de Express.
-
-**MONGODB_URI**: Especificar el URI de conexion del Cluster personal de MongoDB o dejar vacío para conexion local.
-
-Ejemplo URI Cluster MongoDB:
-> MONGODB_URI=mongodb+srv://juanvillota:123455>@myclustername.cnncote.mongodb.net/apuestasDB
-
 # Postman 
 
 Para ver una documentacion de las peticiones en Postman
@@ -24,26 +16,39 @@ Para ver una documentacion de las peticiones en Postman
 [**Documentacion**](https://documenter.getpostman.com/view/14774609/2s9YeHbBRo)
 
 # Instrucciones de configuración e instalación
-Clonar este repositorio. 
+- #### Clonar este repositorio. 
 
-Instalación:
+- #### Configurar variables de entorno:
 
-`npm install`
+    `SERVER_PORT=` : Especificar el puerto para el servidor de Express.
 
-Iniciar servidor:
+    `MONGODB_URI=`: Especificar el URI de conexion del Cluster personal de MongoDB o dejar vacío para conexion local.
 
-`npm start`
+    Template URI Cluster MongoDB:
+    
+    `mongodb+srv://<username>:<password>@<cluster-name>.cnncote.mongodb.net/`
+   
+    Ejemplo URI Cluster MongoDB:
+  
+    `MONGODB_URI=mongodb+srv://juanvillota:123455>@myclustername.cnncote.mongodb.net/apuestasDB`
 
-Abrir Mongo Compass:
+- #### Instalación:
 
-Especificar en la caja de conexion la misma URI de la variable de entorno de MONGODB o para conexion local usar: 
-`mongodb://localhost:27017`
+    `npm install`
 
-Click en Conectar y Listo!
+- #### Iniciar servidor:
+
+    `npm start`
+
+- #### Abrir Mongo Compass:
+
+    Especificar en la caja de conexion la misma URI de la variable de entorno de MONGODB o para conexion local usar: 
+
+    `mongodb://localhost:27017`
+
+- #### Click en Conectar y Listo!
 
 
-#Notas
+# Notas
 
-La ruta para los endpoints es
-
-**/api/v1/productos**
+Endpoint `/api/v1/productos`
