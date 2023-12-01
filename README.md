@@ -37,7 +37,8 @@ Especificar en la caja de conexion la misma URI de la variable de entorno de MON
 Click en Conectar y Listo!
 
 
-##Nota
-Ruta para los endpoints es
+#Notas
+
+La ruta para los endpoints es
 
 **/api/v1/productos**
