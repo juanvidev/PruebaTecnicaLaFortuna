@@ -17,6 +17,11 @@ Se necesitará tener instalado en el sistema operativo:
 Ejemplo URI Cluster MongoDB:
 > MONGODB_URI=mongodb+srv://juanvillota:123455>@myclustername.cnncote.mongodb.net/apuestasDB
 
+# Postman 
+
+Para ver una documentacion de las peticiones en Postman
+
+[**Documentacion**]
 
 # Instrucciones de configuración e instalación
 Clonar este repositorio. 
