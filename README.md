@@ -1,6 +1,6 @@
 # API Bet Products!
 
-Este proyecto es un API (CRUD) basado en NodeJS con el framework de backend ExpressJS junto con una base de datos MongoDB para una prueba tecnica de la empresa **La Fortuna S.A**.
+Este proyecto es un API (CRUD) basado en NodeJS con el framework de backend ExpressJS escrito en Typescript, junto con una base de datos MongoDB para una prueba tecnica de la empresa **La Fortuna S.A**.
 
 # Requisitos principales
 Se necesitará tener instalado en el sistema operativo:
