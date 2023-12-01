@@ -16,29 +16,29 @@ Se necesitará tener instalado en el sistema operativo:
 # Instrucciones de configuración e instalación
 - #### Clonar este repositorio. 
 
-- #### Configurar variables de entorno:
+- #### Configurar variables de entorno
 
     `SERVER_PORT=` : Especificar el puerto para el servidor de Express.
 
     `MONGODB_URI=`: Especificar el URI de conexion del Cluster personal de MongoDB o dejar vacío para conexion local.
 
-    Template URI Cluster MongoDB:
+    Template URI Cluster MongoDB
     
     `mongodb+srv://<username>:<password>@<cluster-name>.cnncote.mongodb.net/`
    
-    Ejemplo URI Cluster MongoDB:
+    Ejemplo URI Cluster MongoDB
   
     `MONGODB_URI=mongodb+srv://juanvillota:123455>@myclustername.cnncote.mongodb.net/apuestasDB`
 
-- #### Instalación:
+- #### Instalación
 
     `npm install`
 
-- #### Iniciar servidor:
+- #### Iniciar servidor
 
     `npm start`
 
-- #### Abrir Mongo Compass:
+- #### Abrir Mongo Compass
 
     Especificar en la caja de conexion la misma URI de la variable de entorno de MONGODB o para conexion local usar: 
 
