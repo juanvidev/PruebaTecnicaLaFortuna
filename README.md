@@ -30,8 +30,12 @@ Iniciar servidor:
 `npm start`
 
 Abrir Mongo Compass:
+
 Especificar en la caja de conexion la misma URI de la variable de entorno de MONGODB o para conexion local usar: 
 `mongodb://localhost:27017`
+
+Ruta
+/api/v1/productos
 
 Click en Conectar y Listo!
 
